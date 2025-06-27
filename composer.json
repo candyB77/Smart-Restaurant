@@ -1,0 +1,8 @@
+{
+    "name": "foodifusion/smart-rest",
+    "description": "A smart restaurant aggregator platform.",
+    "require": {
+        "vlucas/phpdotenv": "^5.4",
+        "guzzlehttp/guzzle": "^7.0"
+    }
+}

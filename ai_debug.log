@@ -1,0 +1,56 @@
+API Response Body: 
+         
+
+         
+
+         
+{"id":"gen-1750843892-PS4sqS5p7BEBMJEROHRE","provider":"DeepInfra","model":"mistralai/mistral-7b-instruct","object":"chat.completion","created":1750843892,"choices":[{"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":" I'm glad to help with that! However, as I only have one restaurant in the list that matches your user's preferences, I can only recommend that restaurant for now. Here is the JSON object for the recommended restaurant:\n\n```\n{\n  \"recommended_restaurant_ids\": [1]\n}\n```\n\nThis suggests Restaurant ID 1, named Praise Food, which is African cuisine and suitable for medium spice tolerance. Keep in mind that this list may change as more restaurants are added or some are removed.\n\nDon't hesitate to provide me with more restaurant options to ensure more accurate recommendations in the future! Have a great meal! 🍴🥘🌍","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":190,"completion_tokens":158,"total_tokens":348}}
+Error decoding recommendation JSON: Syntax error. Content was:  I'm glad to help with that! However, as I only have one restaurant in the list that matches your user's preferences, I can only recommend that restaurant for now. Here is the JSON object for the recommended restaurant:
+
+```
+{
+  "recommended_restaurant_ids": [1]
+}
+```
+
+This suggests Restaurant ID 1, named Praise Food, which is African cuisine and suitable for medium spice tolerance. Keep in mind that this list may change as more restaurants are added or some are removed.
+
+Don't hesitate to provide me with more restaurant options to ensure more accurate recommendations in the future! Have a great meal! 🍴🥘🌍
+API Response Body: 
+         
+
+         
+
+         
+{"id":"gen-1750843895-qVQ6j2X6ppAyGrcyWcu9","provider":"DeepInfra","model":"mistralai/mistral-7b-instruct","object":"chat.completion","created":1750843895,"choices":[{"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":" {\n  \"recommended_restaurant_ids\": [\n    2, 4, 3\n  ]\n}\n\nThis recommendation is based on the available restaurant list you have provided. Restaurant ID 2, 4, and 3 offer African cuisine which matches the cuisine preference of the user. Since spice tolerance is medium, both Restaurant ID 2 and 4 have a rating that suggests they use medium amounts of spices, which should provide a suitable dining experience for the user. However, it's important to note that the ratings are simplified and presumed since the actual values provided are 0.00/5. If more detail was available for each restaurant, the recommendations could be more refined and accurate.","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":190,"completion_tokens":160,"total_tokens":350}}
+Error decoding recommendation JSON: Syntax error. Content was:  {
+  "recommended_restaurant_ids": [
+    2, 4, 3
+  ]
+}
+
+This recommendation is based on the available restaurant list you have provided. Restaurant ID 2, 4, and 3 offer African cuisine which matches the cuisine preference of the user. Since spice tolerance is medium, both Restaurant ID 2 and 4 have a rating that suggests they use medium amounts of spices, which should provide a suitable dining experience for the user. However, it's important to note that the ratings are simplified and presumed since the actual values provided are 0.00/5. If more detail was available for each restaurant, the recommendations could be more refined and accurate.
+2025-06-25 15:48:05 - AI Response Error.
+Response: Array
+(
+    [error] => Array
+        (
+            [message] => google/gemini-pro-vision is not a valid model ID
+            [code] => 400
+        )
+
+    [user_id] => user_2wEegUcVfZXkum6e7wN4e0e7EMo
+)
+
+2025-06-25 15:49:54 - AI Response Error.
+Response: Array
+(
+    [error] => Array
+        (
+            [message] => anthropic/claude-3-haiku-20240307 is not a valid model ID
+            [code] => 400
+        )
+
+    [user_id] => user_2wEegUcVfZXkum6e7wN4e0e7EMo
+)
+
